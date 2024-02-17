@@ -1,0 +1,51 @@
+p
+{
+    border: 3px solid royalblue;
+    background-color: rgb(68, 68, 65);
+    color:rgba(169, 169, 169, 0.514);
+}
+
+
+/* 
+body 
+{
+    background-color: rgba(231, 218, 218, 0.062);
+    hex color picker 
+    color:blue;
+     color :#C8F00C; 
+}
+ */
+
+
+
+h1
+{
+    color:rgb(113, 238, 55);
+}
+
+#descriptionlist
+{
+     color:darkmagenta;
+
+    }
+    
+
+.rbyellow
+{
+    background-color: rgba(112, 112, 23, 0.007);
+}
+
+#aside
+{
+    color: rgba(136, 122, 66, 0.384);
+}
+
+.blackground , span
+{
+    background-color: black;
+}
+
+.description
+{
+    background-color: gold;
+}

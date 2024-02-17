@@ -1,0 +1,40 @@
+body{
+    display: grid;
+    gap: 1.2rem;
+    grid-template-areas: "redaeh  redaeh  redaeh  redaeh"
+                         "action  action  action  vid"
+                         "retoof  retoof  retoof  retoof";
+}
+
+
+.design{
+    background-color:chocolate;
+    color:burlywood;
+    border:4px solid crimson;
+    padding: 9px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    text-align: justify;
+}
+
+header{
+    grid-area: redaeh;
+}
+
+
+
+section{
+    grid-area: action;
+}
+
+
+div{
+    grid-area: vid ;
+}
+
+
+
+footer{
+    grid-area: retoof;
+}

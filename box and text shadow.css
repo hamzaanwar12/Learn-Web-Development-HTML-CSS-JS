@@ -1,0 +1,82 @@
+.division {
+    display: flex;
+    height: 40vh;
+    border: 4px solid coral;
+    text-align: center;
+}
+
+.box {
+    border: 3px solid rebeccapurple;
+    background-color: #1ed2a8;
+    color: #3f5eb5;
+    height: 37vh;
+    margin: auto 7px;
+}
+
+/* 
+    box shadow: by default offset means the shadow will spread outwar the through the 
+    applied item:
+    
+    for both sides , box shadow should be same:
+    {
+        box shadow: (bottom-x-axis)  (right-y-axis)   (color);
+        box shadow: (bottom-x-axis)  (right-y-axis) (blur shadow)   (color);
+        
+        for box shadow at oposite sides:
+        box shadow: -(bottom-x-axis)  -(right-y-axis)  -(blur shadow)   (color);
+        
+        box shadow: (bottom-x-axis)  (right-y-axis) (spread rdius)  (color);
+        box shadow: inset (bottom-x-axis)  (right-y-axis)   (color);
+    }
+    
+
+    for both sides , box shadow should be different:
+    {
+        box shadow:(bottom-x-axis)  (right-y-axis)  (color),(bottom-x-axis)  (right-y-axis)   (color);
+    }
+
+*/
+
+#box_1 {
+    box-shadow: 4px 4px #3300ff;
+    box-shadow: 4px 4px
+        /*blur shadow*/
+        11px #3300ff;
+}
+
+
+#box_2 {
+    /* box-shadow: -4px -4px 11px  31px #eb4fb4; */
+    box-shadow: -4px -4px 11px
+        /* spread radius */
+        31px #eb4fb4;
+}
+
+
+#box_3 {
+    box-shadow: inset 4px 4px 11px 3px #4F9DEB, inset 4px 4px 11px 7px red;
+
+}
+
+
+/*
+Text Shadow:
+            Same Funtion as that of the bow shadow 
+            but it implements on the text not boxes
+*/
+
+
+#box_1 h1 {
+    text-shadow: 4px 5px 7px #eb4fb4;
+}
+
+
+#box_2 h1 {
+    text-shadow:  -4px -5px 7px red;
+}
+
+
+#box_3 h1 {
+    text-shadow: 4px 5px 7px peru;
+}
+

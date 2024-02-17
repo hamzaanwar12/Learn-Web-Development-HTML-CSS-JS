@@ -1,0 +1,67 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+input{
+    display: block;
+    margin:12px 23px;
+}
+
+
+/* this is a special kind to target the specific element. Such slectors are called psuedo slectors  */
+
+input[type/*="text"*/]{
+    border:2px solid black;
+    border-radius: 5px;
+    border-bottom: 3px solid green; 
+}
+
+
+/* a[class="google"]:focus{
+    color: brown;
+    text-decoration: underline;
+} */
+
+/* It can also be done with the target and id and other */
+
+a[class="google"]:hover,a[class="google"]:active{
+    background-color: black;
+    color:rgb(6, 39, 68);
+    border:2px solid grey;
+    text-decoration: none;
+}
+
+a[class]{
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+
+a[class="google"]:visited{
+    
+    background-color: grey;
+    color:rgb(199, 49, 119);
+    border: 2px solid black;
+}
+
+
+ul{
+    list-style: none;
+}
+
+li{
+    text-decoration: none;
+}
+
+
+li:nth-child(7){
+    color:crimson;
+    background-color: rgb(163, 106, 32);
+    border:5px solid khaki;
+    border-radius: 7px;
+}

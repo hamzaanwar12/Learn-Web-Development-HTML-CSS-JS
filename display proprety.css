@@ -1,0 +1,62 @@
+*
+{
+    font-family: cursive;
+    font-style: italic;
+
+}
+
+
+
+body,header
+{
+    background-color: antiquewhite;
+    color:cadetblue;
+    margin: 5px auto;
+    
+}
+
+
+header
+{
+    width:47%;
+    border: 3px solid red;
+    margin: 7px auto;
+
+}
+
+img
+{
+    /* You cannot set the width and you cannot give the margin to the inline elements
+        but there is a way you that you can convert the into the bock elements and can 
+        give them these both things.
+    */
+    display:block;
+    margin:auto;
+}
+
+h1
+{
+    display:inline-block;
+    border: 3px solid black;
+    margin:auto;
+    text-align: center;
+}
+
+
+.box
+{
+    background-color: brown;
+    border: 3px solid black;
+}
+
+.subbox
+{
+    background-color: violet;
+    color:rgb(33, 197, 33);
+    border: 3px solid rgb(111, 206, 219);
+    width:33%;
+    margin:5px 0px;
+    display: inline-block;
+    /* display: block; */
+    box-sizing: border-box;
+}

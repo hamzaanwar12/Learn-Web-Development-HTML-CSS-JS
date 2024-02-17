@@ -1,0 +1,45 @@
+.container{
+    height:70vh;
+    background-color: coral;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    height:24vh;
+    width:15%;
+    background-color: brown;
+    border-radius: 2%;
+    /*
+    A way tp align rhe content in the center of the block  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 2s ease-in-out 0.7s;
+     
+}
+
+.box:hover{
+    /* transform: rotate(45deg); */
+    /* transform: scale(2); */
+    /* transform:skew(40deg); */
+
+    /* It wil slide the the given box in the x-directin by the given value */
+    /* transform: translateX(x-xis_value); */
+    /* transform: translateX(40px); */
+
+
+        /* It wil slide the the given box in the x-directin by the given value */
+    /* transform: translateeY(y-xis_value); */
+    /* transform: translateY(70px); */
+
+    /* The following th emove the provided box both in the x and y directions */
+    /* transform: translate(x-axis_value,y*axis_value); */
+    transform: translate(90px,50px);
+}

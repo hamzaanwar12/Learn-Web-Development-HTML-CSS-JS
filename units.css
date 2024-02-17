@@ -1,0 +1,57 @@
+html{
+    font-size: 20px;
+}
+
+
+.container{
+    font-size: 10px;
+    border:2px solid black;
+    text-align: center;
+    width:50%;
+    margin:auto;
+    
+    /* 
+    
+       vh==>view port height percentage of height relative to the 
+            view port.
+
+        vw==>veiw port width
+        for width the percentage can also be use in the same manner.It is also just like the 
+        percentage related to the view port. 
+    */
+
+    height:80vh;
+
+}
+
+#box1{
+    font-size: 3em;     /* It is gonna be 30px; */
+    /* padding:3em;        
+                    ( It is gonna be 90px; )
+    margin:5em; */
+    
+    /*
+    
+    em ==> em refers to the _x times of the  parent font( in this case is .Container)
+              It can also be used for the margin and padding but it this case it goes in a 
+              different way it comes by the individual's fot size that is the
+                        (x_times of font-size in the box1)  
+    
+    */
+
+}
+
+#box2{
+    font-size: 3rem;    /* 3rem in this case = 60px*/
+    
+    /* rem==>refers to the html font not th parent's font 
+            it will be the 60px(in this case)
+        margin and padding in these cases are same as that of em but in corresspondance to the 
+        html font 
+    */
+    margin:2rem;
+    border:2rem solid red;
+    width:45vw;
+    height:30vh;
+}
+

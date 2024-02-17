@@ -1,0 +1,115 @@
+.container{
+    display:grid;
+    gap:1.2rem;
+    grid-template-areas: 
+                        "nav     nav     nav    nav"
+                        "purpose purpose aaside aaside"
+                        "footer  footer  footer footer";
+    justify-content: center;
+    text-align: center;
+}
+
+.styling{
+    background-color: burlywood;
+    border: 3px solid crimson;
+}
+
+nav span{
+
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: smaller;
+    font-weight: bolder;
+    padding:12px; 
+    text-align: center;
+}
+
+nav{
+    text-align: center;
+    grid-area: nav;
+}
+
+section{
+    grid-area: purpose;
+}
+
+aside{
+    grid-area: aaside;
+}
+
+footer{
+    grid-area: footer;
+}
+
+
+@media screen and (min-width:1000px) {
+    body{
+        background-color: palegoldenrod;
+    }
+
+}
+
+
+
+
+@media screen and (max-width:999px){
+    body{
+        background-color: palegreen;
+    }
+    .container{
+        grid-template-areas: 
+                            "nav     nav     nav    nav"
+                            "purpose purpose purpose purpose"
+                            "aaside  aaside  aaside  aaside"
+                            "footer  footer  footer footer";
+    }
+    
+
+}
+
+
+
+
+@media screen and (max-width:799px) {
+    body{
+        background-color: paleturquoise;
+    }
+        .container{
+        grid-template-areas: 
+                            "nav     nav     nav    nav"
+                            "purpose purpose purpose purpose"
+                            /* "aaside  aaside  aaside  aaside" */
+                            "footer  footer  footer footer";
+    }
+    
+    
+    aside{
+        display: none;
+    }
+}
+
+
+
+@media screen and (max-width:449px) {
+    body{
+        background-color: palevioletred;
+    }
+    nav span{
+        display: block;
+    }
+
+    .container{
+        grid-template-areas: 
+                            "nav     nav     nav    nav"
+                            "purpose purpose purpose purpose"
+                            "aaside  aaside  aaside  aaside"
+                            "footer  footer  footer footer";
+    }
+
+    aside{
+        display: block;
+    }
+
+
+}
+

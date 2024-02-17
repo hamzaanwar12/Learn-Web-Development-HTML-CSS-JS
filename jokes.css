@@ -1,0 +1,36 @@
+:root{
+    background: black;
+    font-size: 13px;
+}
+
+div{
+    background-color: burlywood;
+    text-align: center;
+    color: crimson;
+    width: 60%;
+    height: 70vh;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid brown;
+    border-radius: 7px;
+}
+
+button{
+    background-color: brown;
+    color: burlywood;
+    border-radius: 7px;
+    width: 31%;
+    margin: auto;
+}
+
+#unknown{
+    background-color: azure;
+    color: brown;
+    width: 67%;
+    margin: auto;
+    text-align: center;
+}
+
+
+

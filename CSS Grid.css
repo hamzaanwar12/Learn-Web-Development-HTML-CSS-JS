@@ -1,0 +1,66 @@
+.container{
+
+    display: grid;
+/*
+The width setted by us also determines the gap between the columns when column-gap or row-gaps are not used
+    grid-template-columns: width of first column(200px) width of second column(100px) width of third column (300px); 
+*/
+
+    grid-template-columns: repeat(3,minmax(200px,auto));
+
+    grid-template-rows: repeat(10,minmax(150px,auto));
+    gap: 4px;
+ /*
+     grid-template-rows: height of first column(200px) width of second height(100px) height of third column (300px); 
+*/
+ 
+
+
+    border:2px solid salmon;
+    padding: 5px;
+}
+
+.item{
+    background-color: palegreen;
+    border: 2px gray solid;
+    border-radius: 4px;
+    /* margin:4px; */
+    
+    /* ===================> point to be noted <=================== */
+    
+    /* instead of using the margin aroung every element it will be okay to use grid gaps
+    i.e;
+        gap:50px(rows) 53px(columns) ==>different for the rows and columns 
+        gap:50px   ===> same for rows and columns
+    */
+}
+#item-1-container{
+    display: grid;
+    grid-template-columns: repeat(3,minmax(100px,auto));
+    grid-column-start: 1;
+    grid-column-end: 3;
+    gap:4px;
+}
+
+#item_1_1{
+    display: grid;
+    grid-row-start:1 ;
+    grid-row-end:5 ;
+}
+
+.item_1_sub{
+
+    background-color: antiquewhite;
+    border:2px solid grey;
+
+
+}
+
+#item-2-container{
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 5;
+
+}

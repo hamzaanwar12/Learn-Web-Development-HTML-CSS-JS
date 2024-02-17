@@ -1,0 +1,87 @@
+.box
+{
+    background-color: khaki;
+    border:3px solid black;
+    height:3000px;
+}
+
+
+h1
+{
+    background-color: blanchedalmond;
+    color:teal;
+    width:50%;
+    margin: 15px auto;
+}
+
+.subbox
+{
+    border:3px solid red;
+    width:150px;
+    height: 150px;
+    margin:2px;
+    display:inline-block;
+}
+
+
+
+#smaller_box1
+{
+    background-color: teal;
+    margin:0px 0px 0px 10px;
+}
+
+
+
+
+#smaller_box2
+{
+    background-color: rgb(0, 128, 21);
+}
+
+
+
+/* 
+    position:absolute; =======> relative to it's first parent.
+
+    position:relative; =======> relative to it's noraml positon and will leaeve a gap from its normal position.
+
+    position:sticky;   =======> position then base on th user's scroll.
+    
+    position:fixed;    =======> it wil fixed the position where you sert on he basisi of values of top,left,bottom,right.
+    
+    position:static;   =======> by default psition.
+
+*/
+
+
+#smaller_box3
+{
+    background-color: rgb(128, 0, 90);
+    position: absolute;
+    
+    /*     
+        position:fixed;
+        right:7px;
+        right:7px;
+        left:7px;
+        bottom:2px;
+        position: sticky;
+        top:5px;
+    */
+
+    position:absolute;
+    top:130px;
+    left:144px;
+    /* right:4px; */
+}
+
+
+
+
+#smaller_box4
+{
+    background-color: rgb(100, 128, 0);
+}
+
+

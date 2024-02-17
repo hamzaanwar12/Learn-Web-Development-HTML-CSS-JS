@@ -1,0 +1,160 @@
+h1
+{
+    background-color: blanchedalmond;
+    font-size: 27px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color:blue;
+    /* padding: 5px; */
+    margin : 5px 10px;
+    float: left; 
+    clear:left;
+}
+
+p,h1
+{
+    /* text-align:left; */
+    text-align: justify;
+
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+
+#firstpara
+{
+    
+    font-size: 27px;
+    font-family: cursive;
+    color:rgb(48, 231, 118);
+    font-style: normal;
+    padding: 12px;
+    margin:5px;
+    border: 3px solid rgb(235, 14, 7);
+    /* box-sizing: border-box; */
+    width:17%;
+    float : left;
+    clear:right;
+}
+
+
+#secondpara
+{
+    
+    font-size: 27px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(230, 44, 44);
+    font-style: italic;
+    padding: 100px;
+    border: 3px solid rgb(241, 13, 184);
+    border-radius: 12px;
+    border-bottom-color:green ;
+    margin:3px;
+    padding:3px 3px;
+    margin:7px;
+    float:left;
+    width:27%;
+    clear: right;
+    /* box-sizing: border-box; */
+
+}
+
+
+#thirdpara
+{
+    
+    font-size: 27px;
+    font-family: cursive;
+    color:rgb(48, 231, 118);
+    font-style: normal;
+    border: 3px solid rgb(15, 15, 15);
+    
+    /* Formula for both padding and margins:
+        padding/margin : 4px;===>from all sides
+        padding/margin : 4px 8px;===>4px for top and bottom(y-axis) while 8 for right and left sides(x-axis)
+        padding/margin : 4px 8px 12px 16 px;===>4px for top and 8 for bottom while 12 for left and 16 for right sides
+             */
+
+    padding: 5px 14px;
+    margin:3px 5px 140px 5px; 
+    float:left;
+    width:24%;
+    /* clear: right; */
+    /* box-sizing: border-box; */
+    
+}
+
+
+
+#forthpara
+{
+    
+    font-size: 27px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(230, 44, 44);
+    font-style: italic;
+    border: 3px solid grey;
+    padding: 5px 10px 17px 27px;
+    margin:3px 10px 19px 29px;
+    float:left;    
+    width:10%;
+    /* clear: right; */
+   
+    /* clear is used to remone th eoverlapping from the efined side:
+    i.e;
+    clear left 
+    clear right
+    clear both
+     */
+
+    /* box-sizing: border-box; */
+}
+
+
+#fifthpara
+{
+    
+    font-size: 27px;
+    font-family: cursive;
+    color:rgb(48, 231, 118);
+    font-style: normal;
+    
+     /* margin: top right bottom left */
+
+     padding: 5px 10px 17px 27px;
+    /* float:left; */
+    width:90%;
+    /* box-sizing: border-box; */
+    clear: left;
+
+}
+
+
+.division1
+{
+
+    background-color: rgb(228, 141, 141);
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    border-radius: 24px;
+
+}
+
+.division2
+{
+    background-color: rgb(21, 107, 187);
+    border-color: rgb(144, 11, 221);
+}
+
+.division3
+{
+    background-color: rgba(0, 3, 5, 0.185);
+    border: 3px solid rgb(140, 177, 6);
+    border-radius: 12px;
+    margin:auto;
+    width:50%;
+}

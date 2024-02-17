@@ -1,0 +1,45 @@
+.class{
+    font-size:22px;
+    background-color: aqua;
+    color:crimson;
+    text-align: center;
+    display:none;
+}
+
+@media  (max-width:150px){
+    #box1{
+        color:aliceblue;
+        background-color: black;
+        display:block;
+    }
+}
+
+
+@media (max-width:500px)/*and (min-width:300px)*/{
+    #box2{
+        color: blue;
+        background-color: cadetblue;
+        display:block;
+    }
+}
+
+
+@media (max-width:650px){
+    #box3{
+        color: cornsilk;
+        background-color: darkgray;
+        display:block;
+    
+    }
+
+}
+
+
+
+@media   (min-width:700px){
+    #box4{
+        color:blueviolet;
+        background-color:burlywood ;
+        display:block;
+    }
+}

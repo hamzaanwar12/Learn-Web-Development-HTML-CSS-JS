@@ -1,0 +1,35 @@
+table{
+    background-color: brown;
+    width: 35%;
+    border: solid 3px black;
+    border-radius: 0.9rem;
+    margin: 7rem auto;
+}
+
+
+table{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+tbody{
+    border-collapse: collapse;
+}
+
+tbody,tr,td{
+    border: 2px solid black;
+    padding: 0.5rem;
+}
+
+
+tr,td{
+    border: solid 3px  black;
+} 
+
+table caption{
+    padding: 5px;
+    border: 2px solid black;
+    margin: 5px 0px;
+    background-color: bisque;
+}

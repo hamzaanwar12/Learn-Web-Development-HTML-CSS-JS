@@ -1,0 +1,73 @@
+:root{
+    --width:20%;
+    --height:35vh;
+}
+
+.container{
+    background-color: aquamarine;
+  
+    height: var(--height);
+}
+
+.box{
+    background-color: burlywood;
+    width:var(--width);
+    height:15vh;
+
+    /* Just Going for the Animation */
+
+    animation-name: box_ing;
+    animation-duration: 3.4s;
+    animation-iteration-count: infinite;
+    animation-delay: 15s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: backwards;
+    /* animation-direction:alternate-reverse; */
+
+    /* Short form for the animation */
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+
+
+@keyframes box_ing{
+    0%{
+        position: relative;
+        top:0px;
+        left: 0px;
+    }
+
+    25%{
+        top: 250px;
+        left: 0px;
+    }
+
+    50%{
+        left:250px;
+    }
+
+    75%{
+        top:0px;
+    }
+
+    100%{
+        left: 0px;
+    }
+}
+
+
+/* 
+@keyframes box_ing{
+    from{
+        position: relative;
+        top:0px;
+    }
+
+    to{
+        top:150px;
+    }
+} */
+
+.box h1{
+    font-size: 17px;
+    font-family:'Teko', sans-serif;
+}

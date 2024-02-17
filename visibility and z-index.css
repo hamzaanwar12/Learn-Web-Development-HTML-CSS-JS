@@ -1,0 +1,66 @@
+.box{
+    border:2px solid black;
+    width:270px;
+    height:170px;
+
+}
+
+
+    /* By Default===> visibility: visible; 
+       Visibility:none;==> the thing becomes invisible but its space is retained.
+    */
+
+
+    /* Z-Index:
+
+        It usually specifies that which thing will come to the front or top
+
+        The element with th ehigher z value will be dispayed on theb front and 
+        the element with lower value will be displayed at the back or bottom.
+
+        ==> To use the  Z- Index it is ncessary that the element should have position property any
+        other than the default position i.e; static.
+        ==> It means that Z-Index only works for the positions 
+            sticky
+            relative
+            absolute
+            fixed
+    */
+
+    /* By Default===> display: visible; 
+       Display:none;==> the thing becomes invisible and its space also does not retain.
+    */
+
+
+
+
+#box_1{
+
+    background-color: blue;
+    position:relative;
+    top:42px;
+    z-index: -20;
+}
+
+
+#box_2{
+
+    background-color:brown;
+    position: relative;
+    top:15px;
+    z-index: -22;
+
+}
+
+
+
+
+#box_3{
+    background-color:green;
+}
+
+
+
+#box_4{
+    background-color:rgb(28, 174, 211);
+}

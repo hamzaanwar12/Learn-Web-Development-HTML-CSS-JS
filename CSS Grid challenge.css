@@ -1,0 +1,50 @@
+.container{
+    display: grid;
+    grid-template-columns:repeat(5, minmax(130px,200px));
+    /* grid-template-rows:minmax(500px,auto); 
+    Use is not known here by me*/
+
+    border:2px solid grey;
+    /* background-color: black; */
+    gap:50px;
+    padding: 11px;
+}
+
+.set{
+    display: grid;
+    grid-template-rows:repeat(5,minmax(350px,auto)) ;
+    /* border:2px solid red ; */
+    grid-template-rows: minmax(250px,auto);
+    /* background-color:red; */
+    border-radius: 5px;
+    gap:5px;
+    border-radius: 9px;
+    /*  the background and box color will be matched then we will not be able to
+                separated.
+     background-color: palegreen; */
+}
+/* .subsets_2{
+    border:2px solid paleturquoise;
+
+} */
+
+/* to target any chilfd i th grid you do it without assigning any specific id to it 
+        but by just using 
+        .set:first-child 
+*/
+
+#set_1,.subsets_2,.subsets_3,.subsets_4,.subsets_5{
+    background-color: palegreen;
+    border-radius: 9px;
+    display: grid;
+    grid-template-rows: minmax(250px,auto);
+}
+/*
+It is a right one and it is ok but in order to shorten the code the following is described in the 
+                                above  class of   .set{}
+
+#set_2,#set_3,#set_4,#set_5{
+    display: grid;
+    grid-template-rows: minmax(250px,auto);
+
+} */

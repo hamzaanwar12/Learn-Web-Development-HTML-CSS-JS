@@ -1,0 +1,22 @@
+h1
+{
+    font-style:italic;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bold;
+    background-color: coral;
+    color:rgb(38, 202, 112); 
+    border-color: rgb(88, 182, 51);
+    border-width:3px;
+    border-style: solid;
+    border-right: 3px rgb(8, 10, 4) solid ;
+    border-bottom-right-radius: 12px ;
+    
+}
+
+body
+{
+    background-color: rgb(238, 225, 225);
+    color:rgba(194, 82, 228, 0.247);
+    border-style: solid;
+    border-width:3px;
+}

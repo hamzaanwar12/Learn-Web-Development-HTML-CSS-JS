@@ -1,0 +1,58 @@
+body{
+    background-color: burlywood;
+}
+.container{
+    background-color: blueviolet;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    width:31vw;
+    height:172px;
+    margin: auto;
+    position: relative;
+    top: 4.5rem;
+}
+
+.box{
+    background-color: cornflowerblue;
+    align-self: center;
+    width:17vw;
+    height:17vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    /* Going for the transition */
+
+
+    /* transition-property: background;
+    transition-duration: 4s; */
+    /* transition-timing-function:cubic-bezier(0.175, 0.885, 0.32, 1.275); */
+    /* transition-timing-function: ease-in;
+    transition-delay: 2s;  */
+
+/* 
+
+NOT CONFIRMED BUT SUPPOSED TO BE IN TH EFOLLOWING ORDER:
+NOW IT IS CONFIRMED!
+i.e;
+    transition: transition-property transition-duration  transition-timimng-function transition-delay
+*/
+
+    transition: all 2s  ease-out 2s ;
+    
+}
+
+.box:hover{
+    background-color: rgb(224, 77, 107);
+    width: 34vw;
+    height:34vh;
+    font-size: 34px;
+    font-style: italic;
+    font-family:'Teko', sans-serif;
+    border-radius: 3rem;
+
+}
+
+

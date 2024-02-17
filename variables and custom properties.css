@@ -1,0 +1,51 @@
+:root{
+    --container_color:black;
+    --new-box-color:grey;
+    --box_width:52px;
+    --box_height:72px;
+
+}
+
+.container{
+    display: flex;
+    width:21%;
+    align-items:center;
+    justify-content: center;
+    background-color: var(--container_color);
+    margin: auto;
+}
+
+.box{
+
+     
+    /* declaring a variable of css */
+    
+    /* Local avariable *//* It can be only accessed within the box */
+    --box-color:rgb(1, 44, 30);
+    
+    
+    /* 
+    width: 17%;
+    height: 30vh;
+    */
+
+    width:var(--box_width);
+    height:var(--box_height);
+    
+    /* background-color: aquamarine; */
+    /* background-color: var(--box-color); */
+    background-color: var(--new-box-color);
+    color:burlywood;
+    margin:13px 21px;
+    border: 2px solid black;
+    
+    /*
+     box-shadow: 4px 3px 5px rgba(226, 102, 226,2);
+    r==>red
+    b==>blue
+    g==>green
+    a==>alpha(intensity of color)
+    */
+    
+    box-shadow: 4px 3px 5px rgba(226, 102, 226,2);
+}

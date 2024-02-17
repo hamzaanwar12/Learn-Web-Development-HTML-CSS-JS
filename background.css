@@ -1,0 +1,44 @@
+h1
+{
+    height: 88px;
+    background-color: rgb(30, 200, 230);
+    color:rgba(156, 12, 137, 0.74);
+    background-image: url(https://yt3.ggpht.com/ytc/AKedOLTeIN9o9f6IKqeWT4iszD33W_O03o4-1NIzBo4ODg=s88-c-k-c0x00ffffff-no-rj);
+    border: 2px solid black;
+    /* repeat-x ==> repeat image in X axis. 
+       repeat-y ==> repeat image in y axis.
+    */
+    background-repeat: no-repeat;
+    background-position: center top;    /*
+                                            center = a ===> for x   top = b ====> for y 
+                                            a =top      b=right
+                                            a =centre   b=center
+                                            a=bottom    b=left
+                                        */
+
+
+}
+
+#descriptionlist
+{
+    color:cornflowerblue;
+}
+
+
+#aside
+{
+    color:cyan ;
+    background-image: url();
+    
+}
+
+.desription
+{
+    background-color:rgba(173, 69, 35, 0.603)
+}
+
+.blackground
+{
+    background-color: rgba(79, 116, 148, 0.404);
+}
+

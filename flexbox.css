@@ -1,0 +1,97 @@
+.container{
+
+    height:700px;
+    border: 2px solid black;
+    
+    display: flex;
+
+    /*
+        By making a thing's disply flex the sub-items in the set becomes the 
+        flex items automatically. 
+    */
+
+
+    /* The flex properties are:border: 
+            justify-content
+            align items
+            flex-direction
+            flex-wrap
+            flex-flow
+
+    */
+
+    justify-content: center;
+    /* It will lace the flex's content items in the centre.  */
+
+    justify-content: end;
+    justify-content: left;
+    justify-content: right;
+
+    justify-content: space-between;
+    /* It just provide the equal spaces between the flex items */
+
+    justify-content: space-evenly;
+    /* It will provide even spaces between th eflex items both btween the flex items 
+        and also from the start to an end in addition to the between the flex items */
+
+    justify-content: space-around;
+    /* it will give the equal space atround each flex item  but there will be the added space between the two 
+        flex items and not added but isolated space at the start and end of  the flex.*/
+
+    align-items:center;
+    align-items:flex-end;
+    align-items:flex-start;
+    align-items: stretch;
+
+    align-items: center;
+
+    /* By default flex-wrap is nowrap */
+    flex-wrap:wrap;
+
+    /* Similarly, it will be overwrite as like the variables and their values. */
+    flex-wrap: wrap-reverse;
+
+    /* By Default the value of the flex direction is row */
+    flex-direction: column-reverse;
+
+    /* Short form to write flex direction and wrap is just flex-flow: flex-direction value flex-wrap value */
+    flex-flow: row wrap;
+
+
+}
+
+.box{
+    background-color: tomato;
+    width:200px;
+    height:150px;
+    border:2px solid chocolate;
+}
+
+
+#box_1{
+
+    /* The flex item's properties are:
+            align-self
+            flex-grow
+            flex-shrink
+            flex-basis
+
+    */
+
+
+    align-self:center;
+    flex-shrink: 3;
+    flex-grow: 2;
+
+
+    /* When flex-direction is row then flex-basis control the width of flex items */
+    /* When flex-direction is column then flex-basis control the heigth of flex items */
+    flex-basis: 260px;
+    
+
+    /* only flex: flex-grow flex-shrink flex-basis */
+    flex:10 5 500px;
+
+
+
+}
